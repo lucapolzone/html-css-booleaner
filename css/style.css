@@ -1,10 +1,12 @@
-*{
+ h1, p {
   margin: 0;
   padding: 0;
 }
-  
+
 body {
   font-family: 'Times New Roman', Times, serif; 
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -12,9 +14,8 @@ main {
 }
 
 header {
-  margin-left: 0;
   height: 80px;
-  background-color: #00ffff;
+  background-color: #2BADE6;
 }
 
 h1 {
@@ -23,10 +24,26 @@ h1 {
 
 #sottotitolo  {
   color: #808080;
+  font-size: 18px;
+}
+
+/* Link custom */
+a {
+  color: #2BADE6;
+  text-decoration: none;
 }
 
 
-
 figure {
-  margin: 20px 0;
+  margin: 30px 0;
+}
+
+
+.evidenziatore {
+  background-color: yellow;
+}
+
+ul {
+  margin: 10px 0;
+  padding: 20px;
 }
