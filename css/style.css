@@ -7,3 +7,26 @@ body {
   font-family: 'Times New Roman', Times, serif; 
 }
 
+main {
+  margin-left: 5px;
+}
+
+header {
+  margin-left: 0;
+  height: 80px;
+  background-color: #00ffff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#sottotitolo  {
+  color: #808080;
+}
+
+
+
+figure {
+  margin: 20px 0;
+}
