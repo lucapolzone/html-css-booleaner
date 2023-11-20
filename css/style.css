@@ -24,7 +24,7 @@ header {
   background-size: 400px;
 }
 
-header img {
+#header-logo {
   margin-top: 40px;
   margin-left: 5px;
   width: 200px;
