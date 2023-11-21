@@ -10,12 +10,6 @@ body {
   padding: 0;
 }
 
-/* Macro contenitore */
-#container {
-  margin: 0 auto;
-  width: 1100px;
-}
-
 /* Intestazione */
 header {
   height: 100px;
@@ -25,11 +19,19 @@ header {
 }
 
 #header-logo {
-  margin-top: 40px;
   width: 200px;
 }
 
+/* Macro contenitore */
+#container {
+  position: relative;
+  bottom: 55px;
+  margin: 0 auto;
+  width: 1100px;
+}
+
 h1 {
+  margin-top: 20px;
   font-size: 40px;
 }
 
@@ -45,7 +47,7 @@ a {
 }
 
 figure {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .evidenziatore {
